@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+fastgg/__init__.py
+fastgg/algorithms.py
+fastgg/cli.py
+fastgg_python.egg-info/PKG-INFO
+fastgg_python.egg-info/SOURCES.txt
+fastgg_python.egg-info/dependency_links.txt
+fastgg_python.egg-info/entry_points.txt
+fastgg_python.egg-info/top_level.txt

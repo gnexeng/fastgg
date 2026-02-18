@@ -1,0 +1,2 @@
+[console_scripts]
+fastgg = fastgg.cli:main
