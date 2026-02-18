@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastgg-python"
+version = "0.1.0"
+description = "Python implementation of the FASTRGG random Erdős–Rényi graph generator"
+requires-python = ">=3.9"
+authors = [
+  { name = "Original CUDA authors (see FastGG.cu header)" },
+  { name = "Python port", email = "unknown@example.com" },
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+fastgg = "fastgg.cli:main"
